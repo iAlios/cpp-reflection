@@ -1,5 +1,5 @@
-#ifndef CLASSES_H
-#define CLASSES_H
+#ifndef REFLECTION_CLASSES_H
+#define REFLECTION_CLASSES_H
 
 #include <string>
 #include <memory>
@@ -115,4 +115,4 @@ namespace reflection {
     ClassFactory<BASE, std::string, ##__VA_ARGS__>::RegisterConstructor<CLASS> ____##CLASS(CLASS_NAME(CLASS))
 
 }
-#endif //CLASSES_H
+#endif //REFLECTION_CLASSES_H
